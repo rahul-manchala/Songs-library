@@ -1,0 +1,23 @@
+1) Image Gallery:
+	
+	i.	A landing page (image_library.html): A list of all images in the library. The list is paginated. A thumbnail representation 
+	of each image with title information.
+	The thumbnail is clickable and when clicked, the user is redirected to details page with where the image is dispalyed in its original size and pertaining information is shown below.
+	
+	ii.	A link to the contact page - the contact form has name, email, description (required fields) and number field with input mask.
+	Only 255 characters are allowed by description. The countdown is shown below the text field.
+	
+	Note: The image limit in each page is set to 4. It can be changed to any other number(image_library.html). The pagination updates dynamically.
+	
+2) Create a web app with the following requirements:
+
+		i.	An artist search field, when typed in shows a list of suggestions for artist. When an artist is selected, a list of albums 
+		is shown below with album name and button to view more details for the album. 
+		ii.	When the user clicks on the album detail button, a panel with album details such as cover, title, artist, date 
+		and list of songs with the duration is shown.
+	
+	Note: The list of albums is limited to 6. The limit can be removed at anytime(main.js - suggestAlbums function).
+
+OutStanding Tasks:
+	
+	a) Image size in bytes.

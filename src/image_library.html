@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Image Library</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/image_library.css">
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="image_library.html">ImageGallery</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+
+    <div class="row">
+
+        <div id="search-image-sec" class="col-md-offset-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for image..." id="imageName">
+                    <span class="input-group-btn">
+                        <button class="btn btn-success" type="button" id="searchImage" title="search images"
+                        >
+                            <i class="fa fa-search"></i>
+                        </button>
+
+                        <button class="btn btn-primary" type="button" id="restSearch" title="reset search"
+                        >
+                            <i class="fa fa-refresh"></i>
+                        </button>
+                    </span>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="alert alert-danger image-alerts" id="image-search-alert" style="display: none">
+            <i class="fa fa-info"></i>&nbsp; No images found.
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="alert alert-info image-alerts" id="image-search-alert-2" style="display: none">
+            <i class="fa fa-info"></i>&nbsp; No name entered.
+        </div>
+
+    </div>
+
+    <div class="row" id="image-list-section">
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-1.jpg" id="img_1" alt="">
+				<p>img-1</p>
+            </a>
+        </div>
+		
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-2.jpg" id="img_2" alt="">
+				<p>img-2</p>
+            </a>			
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-3.jpg" id="img_3" alt="">
+				<p>img-3</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-4.jpg" id="img_4" alt="">
+				<p>img-4</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-5.jpg" id="img_5" alt="">
+				<p>img-5</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-6.jpg" id="img_6" alt="">
+				<p>img-6</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-7.jpg" id="img_7" alt="">
+				<p>img-7</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-8.jpg" id="img_8" alt="">
+				<p>img-8</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-9.jpg" id="img_9" alt="">
+				<p>img-9</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-10.jpg" id="img_10" alt="">
+				<p>img-10</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-11.jpg" id="img_11" alt="">
+				<p>img-11</p>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a class="thumbnail" href="image_details.html">
+                <img class="img-responsive" src="img/img-12.jpg" id="img_12" alt="">
+				<p>img-12</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="row" id="pagination-row">
+        <div class="col-md-12 col-xs-12 col-sm-12">
+            <ul class="pagination" id="pagination-ul">
+
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!-- /.container -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/select2/select2.min.js"></script>
+<script src="js/image_library.js"></script>
+
+</body>
+</html>

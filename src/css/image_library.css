@@ -1,0 +1,29 @@
+body {
+    padding-top: 70px;
+}
+
+.thumb {
+    margin-bottom: 30px;
+    display: none;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.thumbnail {
+    height: 300px;
+}
+
+.img-responsive, .thumbnail > img
+{
+    height: 200px;
+}
+
+#pagination-row{
+    display: none;
+}
+
+#search-image-sec{
+    margin-bottom: 50px;
+}
